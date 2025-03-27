@@ -9,7 +9,7 @@ function App() {
 
   useEffect(() => {
     const img = new Image()
-    img.src = '/src/assets/bg.webp'
+    img.src = '/bg.webp'
     img.onload = () => {
       setBgImage(img)
     }
